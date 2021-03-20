@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LivFit</string>
+    <string name="tdytxt">Todays Steps</string>
+    <string name="steps">0000</string>
+    <string name="calonum">000</string>
+    <string name="timeam">00:00</string>
+    <string name="kmnum">0.0</string>
+    <string name="calo">Calories</string>
+    <string name="time">Time</string>
+    <string name="km">KM</string>
+    <string name="cardiobtn1">Push Ups</string>
+    <string name="cardiobtn2">Crunches</string>
+    <string name="cardiobtn3">Plank</string>
+    <string name="cardiobtn4">Jumping Jacks</string>
+    <string name="cardiobtn5">High Knees</string>
+    <string name="cardiobtn6">Mountain Climbers</string>
+    <string name="pshtxt">Push Ups</string>
+    <string name="duration">Duration</string>
+    <string name="caltxt">Calories Burnt</string>
+    <string name="calnm">000</string>
+    <string name="cdtxt">Cardio Workouts</string>
+    <string name="search">Search</string>
+</resources>
