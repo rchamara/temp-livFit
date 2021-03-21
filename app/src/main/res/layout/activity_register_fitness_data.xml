@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_fitness_data">
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="102dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/age"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/etEnterAge"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/currentWeight"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/etNowWeight3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAge" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/height"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/etNowHeight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeight" />
+
+    <TextView
+        android:id="@+id/tvTargetWeight"
+        android:layout_width="105dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/targetWeight"
+        android:textColor="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/etTargetWeight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeight" />
+
+    <TextView
+        android:id="@+id/tvHeightUnit"
+        android:layout_width="24dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/centimeter"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etNowHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/etNowHeight" />
+
+    <TextView
+        android:id="@+id/tvTarWeightUnit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/kilogram"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etTargetWeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/etTargetWeight" />
+
+    <TextView
+        android:id="@+id/tvCurrWeightUnit"
+        android:layout_width="24dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/kilogram"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etNowWeight3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/etNowWeight3" />
+
+    <EditText
+        android:id="@+id/etEnterAge"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvAge" />
+
+    <EditText
+        android:id="@+id/etTargetWeight"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvTargetWeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvTarWeightUnit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvTargetWeight" />
+
+    <EditText
+        android:id="@+id/etNowWeight3"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvWeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvCurrWeightUnit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvWeight" />
+
+    <EditText
+        android:id="@+id/etNowHeight"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvHeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvHeightUnit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvHeight" />
+
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreateAccount"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="187dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/createAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTargetWeight" />
+</androidx.constraintlayout.widget.ConstraintLayout>
