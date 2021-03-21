@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADproject_WorkoutHandling">
-        <activity android:name="com.example.LivFit.MainActivity5">
+        <activity android:name="com.example.LivFit.StepCounter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +17,12 @@
             </intent-filter>
 
         </activity>
-        <activity android:name="com.example.LivFit.MainActivity4">
+        <activity android:name="com.example.LivFit.PushupWorkout">
         </activity>
-        <activity android:name="com.example.LivFit.MainActivity3" >
+        <activity android:name="com.example.LivFit.CardioWorkout" >
 
         </activity>
-        <activity android:name="com.example.LivFit.MainActivity2" >
+        <activity android:name="com.example.LivFit.SearchWorkout" >
 
         </activity>
     </application>

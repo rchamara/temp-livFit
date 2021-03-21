@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity3 extends AppCompatActivity {
+public class CardioWorkout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.cardio_workout);
     }
 }

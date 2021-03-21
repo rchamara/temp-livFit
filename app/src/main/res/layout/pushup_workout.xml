@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context=".PushupWorkout">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewpshups"
         android:layout_width="207dp"
         android:layout_height="154dp"
         android:layout_marginTop="36dp"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/pushup" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textViewpshups"
         android:layout_width="114dp"
         android:layout_height="39dp"
         android:layout_marginTop="48dp"
@@ -28,25 +28,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewpshups" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textViewdurtion"
         android:layout_width="91dp"
         android:layout_height="31dp"
         android:layout_marginStart="44dp"
         android:layout_marginEnd="113dp"
-        android:text="@string/duration"
+        android:text="@string/durationw"
         android:textAlignment="center"
         android:textColor="#FF7F50"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumberdurationw"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textViewcalbrnt"
         android:layout_width="194dp"
         android:layout_height="48dp"
         android:layout_marginTop="70dp"
@@ -56,10 +56,10 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewdurtion" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewbrntnum"
         android:layout_width="185dp"
         android:layout_height="82dp"
         android:layout_marginTop="55dp"
@@ -71,11 +71,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcalbrnt"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editTextNumberdurationw"
         android:layout_width="83dp"
         android:layout_height="51dp"
         android:layout_marginEnd="84dp"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/floatingActionButtonw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blue"
@@ -98,7 +98,7 @@
         app:srcCompat="@android:drawable/button_onoff_indicator_on" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/floatingActionButtonaw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -108,7 +108,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberdurationw"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_input_add" />
 </androidx.constraintlayout.widget.ConstraintLayout>

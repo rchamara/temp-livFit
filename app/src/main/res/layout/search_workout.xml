@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
-    tools:context=".MainActivity2">
+    tools:context=".SearchWorkout">
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/searchViewworkout"
         android:layout_width="359dp"
         android:layout_height="0dp"
         android:layout_marginStart="24dp"
@@ -20,86 +20,86 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnsrchwrkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:backgroundTint="@color/blue"
-        android:text="@string/search"
+        android:text="@string/searchw"
         app:iconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintTop_toBottomOf="@+id/searchViewworkout"
         app:strokeColor="#FFFFFF" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/imageButtonarms"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginTop="42dp"
         android:layout_marginBottom="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonchest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonlegs"
+        app:layout_constraintTop_toBottomOf="@+id/btnsrchwrkout"
         app:srcCompat="@drawable/arms" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonlegs"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginTop="42dp"
         android:layout_marginBottom="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonback"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonarms"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnsrchwrkout"
         app:srcCompat="@drawable/legs" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButtonback"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginBottom="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtoncardio"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonchest"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/back" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/imageButtonchest"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginBottom="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonshuol"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton8"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonback"
         app:srcCompat="@drawable/chest" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/imageButtoncardio"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonshuol"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/cardio" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButtonshuol"
         android:layout_width="161dp"
         android:layout_height="156dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton10"
+        app:layout_constraintStart_toEndOf="@+id/imageButtoncardio"
         app:srcCompat="@drawable/shoulders" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

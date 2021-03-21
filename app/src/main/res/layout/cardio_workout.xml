@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bkgrnd"
-    tools:context=".MainActivity3">
+    tools:context=".CardioWorkout">
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/mntnbtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -19,11 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/hykneebtn"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/crunches"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -32,10 +32,10 @@
         android:text="@string/cardiobtn2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/pshups" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/plank"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -44,10 +44,10 @@
         android:text="@string/cardiobtn3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/crunches" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/jumpingjackbtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -56,10 +56,10 @@
         android:text="@string/cardiobtn4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/plank" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/hykneebtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="62dp"
@@ -68,10 +68,10 @@
         android:text="@string/cardiobtn5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/jumpingjackbtn" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/pshups"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
@@ -81,14 +81,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/crdiowrkts"
         android:layout_width="160dp"
         android:layout_height="86dp"
         android:text="@string/cdtxt"
         android:textAlignment="center"
         android:textColor="#FF7F50"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/pshups"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
