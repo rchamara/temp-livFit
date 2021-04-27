@@ -9,22 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADproject_WorkoutHandling">
-        <activity android:name="com.example.LivFit.StepCounter">
+        <activity android:name=".faq"></activity>
+        <activity android:name=".aboutUs" />
+        <activity android:name=".updateAccount" />
+        <activity android:name=".settings" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".DisplayBMI" />
+        <activity android:name=".Register_fitness_data" />
+        <activity android:name=".Register" />
+        <activity android:name=".login" />
+        <activity android:name=".UserInterfaceOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name="com.example.LivFit.PushupWorkout">
-        </activity>
-        <activity android:name="com.example.LivFit.CardioWorkout" >
-
-        </activity>
-        <activity android:name="com.example.LivFit.SearchWorkout" >
-
-        </activity>
+        <activity android:name=".StepCounter" />
+        <activity android:name=".PushupWorkout" />
+        <activity android:name=".CardioWorkout" />
+        <activity android:name=".SearchWorkout" />
     </application>
 
 </manifest>
