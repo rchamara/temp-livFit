@@ -9,6 +9,6 @@ public class PushupWorkout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pushup_workout);
+        setContentView(R.layout.activity_pushup_workout);
     }
 }
